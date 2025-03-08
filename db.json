@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "dob": "1990-01-01",
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "country": "USA",
+      "zip": "12345",
+      "username": "johndoe",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "098-765-4321",
+      "dob": "1992-02-02",
+      "street": "456 Elm St",
+      "city": "Othertown",
+      "state": "NY",
+      "country": "USA",
+      "zip": "54321",
+      "username": "janesmith",
+      "password": "mypassword"
+    },
+    {
+      "id": "de80",
+      "firstName": "Chandarashekar",
+      "lastName": "Myadaraveni",
+      "email": "chandrashekarchandu490@gmail.com",
+      "phone": "9502328015",
+      "dob": "2004-06-06",
+      "street": "maisamaguda",
+      "city": "hyderabad",
+      "state": "telanagana",
+      "country": "india",
+      "zip": "12345",
+      "username": "chandrashekarchandu490@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e97c",
+      "firstName": "bunny",
+      "lastName": "yadav",
+      "email": "2211cs020273@mallareddyuniversity.ac.in",
+      "phone": "9701748933",
+      "dob": "2025-02-24",
+      "street": "kapulapalli",
+      "city": "peddapalli",
+      "state": "telangana",
+      "country": "india",
+      "zip": "505187",
+      "username": "bunny",
+      "password": "1234"
+    }
+  ]
+}

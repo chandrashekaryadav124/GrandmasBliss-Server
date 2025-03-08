@@ -1,0 +1,14 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "A simple JSON server for handling login and registration functionalities.",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
