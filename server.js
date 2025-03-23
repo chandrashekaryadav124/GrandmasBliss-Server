@@ -20,7 +20,7 @@ server.post('/login', (req, res) => {
   }
 });
 
-// Registration endpoint
+// User registration endpoint
 server.post('/users', (req, res) => {
   const newUser = req.body;
   const db = router.db;
@@ -34,6 +34,22 @@ server.post('/users', (req, res) => {
   // Add new user to the database
   db.get('users').push(newUser).write();
   res.status(201).json(newUser);
+});
+
+// Admin registration endpoint
+server.post('/admins', (req, res) => {
+  const newAdmin = req.body;
+  const db = router.db;
+
+  // Check if admin already exists
+  const existingAdmin = db.get('admins').find({ username: newAdmin.username }).value();
+  if (existingAdmin) {
+    return res.status(400).json({ message: 'Username already exists' });
+  }
+
+  // Add new admin to the database
+  db.get('admins').push(newAdmin).write();
+  res.status(201).json(newAdmin);
 });
 
 server.use(router);

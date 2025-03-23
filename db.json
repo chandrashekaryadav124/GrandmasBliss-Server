@@ -60,5 +60,6 @@
       "username": "bunny",
       "password": "1234"
     }
-  ]
+  ],
+  "admins":[]
 }
