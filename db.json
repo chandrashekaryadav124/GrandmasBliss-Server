@@ -61,5 +61,21 @@
       "password": "1234"
     }
   ],
-  "admins":[]
+  "admins": [
+    {
+      "id": "382d",
+      "firstName": "admin",
+      "lastName": "admin",
+      "email": "admin@123",
+      "phone": "1234567898",
+      "dob": "2025-03-14",
+      "street": "",
+      "city": "hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "zip": "",
+      "username": "admin",
+      "password": "admin"
+    }
+  ]
 }
